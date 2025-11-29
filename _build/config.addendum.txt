@@ -1110,3 +1110,17 @@ CONFIG_SND_PCM=y
 # For cellular modems
 CONFIG_WWAN=y
 CONFIG_USB_NET_CDC_MBIM=y
+
+## ADDING ADDITIONAL DRIVERS
+# Additional Drivers: https://github.com/raspberrypi/linux/blob/7c7adad3f457db10d347d5443a325d7c7a0a8253/arch/arm64/configs/bcm2712_defconfig#L787
+
+# Staging Drivers
+CONFIG_STAGING=y
+CONFIG_STAGING_MEDIA=y
+CONFIG_STAGING_MEDIA_DEPRECATED=y
+
+# Camera V2
+CONFIG_VIDEO_IMX219=m	
+
+# Camera V3 
+CONFIG_VIDEO_IMX708=m	

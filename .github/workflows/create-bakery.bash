@@ -11,7 +11,7 @@ cat > ~/gokrazy/bakery/config.json <<EOT
     "Update": {
         "HTTPPassword": "${GOKRAZY_BAKERY_PASSWORD}"
     },
-    "KernelPackage": "github.com/gokrazy/kernel.rpi",
+    "KernelPackage": "github.com/hermitter/kernel.rpi",
     "Packages": [
         "github.com/gokrazy/breakglass",
         "github.com/gokrazy/bakery/cmd/bake",
@@ -25,7 +25,7 @@ cat > ~/gokrazy/bakery/config.json <<EOT
                 "-authorized_keys=/etc/breakglass.authorized_keys"
             ],
             "ExtraFileContents": {
-                "/etc/breakglass.authorized_keys": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFGSGdjns3/K3vwrQvwtvEMruFIqDtV//CHWVLUm4XNt michael@midna"
+                "/etc/breakglass.authorized_keys": "sk-ssh-ed25519@openssh.com AAAAGnNrLXNzaC1lZDI1NTE5QG9wZW5zc2guY29tAAAAIPbUMZFKpMBkEGXFdps5+o3O2ZZJ+lXW8IPBAxdvAK68AAAACnNzaDpuZWVkbGU="
             }
         }
     }
