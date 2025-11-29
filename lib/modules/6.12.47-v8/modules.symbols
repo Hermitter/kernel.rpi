@@ -58,6 +58,7 @@ alias symbol:dib3000mc_get_tuner_i2c_master dib3000mc
 alias symbol:lgs8gxx_attach lgs8gxx
 alias symbol:s5h1411_attach s5h1411
 alias symbol:l2cap_chan_connect bluetooth
+alias symbol:cci_update_bits v4l2_cci
 alias symbol:hci_devcd_complete bluetooth
 alias symbol:isl6423_attach isl6423
 alias symbol:au8522_init au8522_common
@@ -146,6 +147,7 @@ alias symbol:cx22700_attach cx22700
 alias symbol:brcmf_fil_xtlv_data_get brcmfmac
 alias symbol:brcmf_fil_iovar_data_get brcmfmac
 alias symbol:dib3000mc_pid_control dib3000mc
+alias symbol:devm_cci_regmap_init_i2c v4l2_cci
 alias symbol:stv0900_attach stv0900
 alias symbol:hci_devcd_rx bluetooth
 alias symbol:sp887x_attach sp887x
@@ -172,6 +174,7 @@ alias symbol:mxl5007t_attach mxl5007t
 alias symbol:vb2_queue_change_type videobuf2_v4l2
 alias symbol:vb2_core_streamon videobuf2_common
 alias symbol:hci_resume_dev bluetooth
+alias symbol:cci_write v4l2_cci
 alias symbol:mt2131_attach mt2131
 alias symbol:fc0012_attach fc0012
 alias symbol:mt352_attach mt352
@@ -371,6 +374,7 @@ alias symbol:frame_vector_to_pages videobuf2_common
 alias symbol:bt_sock_alloc bluetooth
 alias symbol:hci_uart_register_device_priv hci_uart
 alias symbol:ecc_make_pub_key ecc
+alias symbol:cci_read v4l2_cci
 alias symbol:ecc_point_is_zero ecc
 alias symbol:hci_cmd_sync_dequeue bluetooth
 alias symbol:vb2_core_reqbufs videobuf2_common
@@ -426,6 +430,7 @@ alias symbol:hci_suspend_dev bluetooth
 alias symbol:hci_conn_security bluetooth
 alias symbol:vb2_ioctl_streamoff videobuf2_v4l2
 alias symbol:tda829x_probe tda8290
+alias symbol:cci_multi_reg_write v4l2_cci
 alias symbol:hci_devcd_timeout bluetooth
 alias symbol:vli_num_bits ecc
 alias symbol:__SCK__tp_func_vb2_dqbuf videobuf2_common

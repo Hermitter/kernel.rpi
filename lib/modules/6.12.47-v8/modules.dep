@@ -17,6 +17,9 @@ kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/wcc/brcmfmac-wcc.ko: ker
 kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/cyw/brcmfmac-cyw.ko: kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko kernel/drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.ko
 kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/bca/brcmfmac-bca.ko: kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko kernel/drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.ko
 kernel/drivers/rtc/rtc-meson-vrtc.ko:
+kernel/drivers/media/i2c/imx219.ko: kernel/drivers/media/v4l2-core/v4l2-cci.ko
+kernel/drivers/media/i2c/imx477.ko:
+kernel/drivers/media/i2c/imx708.ko:
 kernel/drivers/media/tuners/e4000.ko:
 kernel/drivers/media/tuners/fc0011.ko:
 kernel/drivers/media/tuners/fc0012.ko:
@@ -163,6 +166,7 @@ kernel/drivers/media/dvb-frontends/zd1301_demod.ko:
 kernel/drivers/media/dvb-frontends/zl10036.ko:
 kernel/drivers/media/dvb-frontends/zl10039.ko:
 kernel/drivers/media/dvb-frontends/zl10353.ko:
+kernel/drivers/media/v4l2-core/v4l2-cci.ko:
 kernel/drivers/media/common/videobuf2/videobuf2-common.ko:
 kernel/drivers/media/common/videobuf2/videobuf2-memops.ko: kernel/drivers/media/common/videobuf2/videobuf2-common.ko
 kernel/drivers/media/common/videobuf2/videobuf2-v4l2.ko: kernel/drivers/media/common/videobuf2/videobuf2-common.ko
