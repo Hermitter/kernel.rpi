@@ -64,6 +64,7 @@ alias symbol:isl6423_attach isl6423
 alias symbol:au8522_init au8522_common
 alias symbol:vb2_ioctl_qbuf videobuf2_v4l2
 alias symbol:bt_debugfs bluetooth
+alias symbol:vchiq_mmal_init bcm2835_mmal_vchiq
 alias symbol:btbcm_patchram btbcm
 alias symbol:stv0288_attach stv0288
 alias symbol:bt_accept_unlink bluetooth
@@ -91,6 +92,7 @@ alias symbol:vb2_core_streamoff videobuf2_common
 alias symbol:btbcm_finalize btbcm
 alias symbol:ts2020_attach ts2020
 alias symbol:bt_sock_reclassify_lock bluetooth
+alias symbol:vchiq_mmal_port_parameter_get bcm2835_mmal_vchiq
 alias symbol:cxd2820r_attach cxd2820r
 alias symbol:brcmu_pktq_pdeq_match brcmutil
 alias symbol:btbcm_setup_patchram btbcm
@@ -105,13 +107,17 @@ alias symbol:l2cap_register_user bluetooth
 alias symbol:hci_release_dev bluetooth
 alias symbol:vb2_ioctl_remove_bufs videobuf2_v4l2
 alias symbol:l2cap_is_socket bluetooth
+alias symbol:vchiq_mmal_component_enable bcm2835_mmal_vchiq
+alias symbol:vchiq_mmal_port_disable bcm2835_mmal_vchiq
 alias symbol:btbcm_check_bdaddr btbcm
+alias symbol:vchiq_mmal_port_parameter_set bcm2835_mmal_vchiq
 alias symbol:frame_vector_destroy videobuf2_common
 alias symbol:mt2266_attach mt2266
 alias symbol:bt_warn_ratelimited bluetooth
 alias symbol:vb2_buffer_in_use videobuf2_common
 alias symbol:dibx000_init_i2c_master dibx000_common
 alias symbol:stv0910_attach stv0910
+alias symbol:vc_sm_cma_free vc_sm_cma
 alias symbol:dib7000m_pid_filter_ctrl dib7000m
 alias symbol:tea5761_autodetection tea5761
 alias symbol:helene_attach helene
@@ -123,6 +129,7 @@ alias symbol:sha384_zero_message_hash sha512_generic
 alias symbol:vb2_plane_vaddr videobuf2_common
 alias symbol:hci_devcd_append bluetooth
 alias symbol:lgs8gl5_attach lgs8gl5
+alias symbol:vchiq_mmal_finalise bcm2835_mmal_vchiq
 alias symbol:bt_sock_linked bluetooth
 alias symbol:vli_is_zero ecc
 alias symbol:hci_set_fw_info bluetooth
@@ -160,15 +167,19 @@ alias symbol:vb2_core_dqbuf videobuf2_common
 alias symbol:brcmu_pktq_pdeq brcmutil
 alias symbol:l2cap_chan_set_defaults bluetooth
 alias symbol:dibx000_get_i2c_adapter dibx000_common
+alias symbol:vchiq_mmal_version bcm2835_mmal_vchiq
 alias symbol:baswap bluetooth
 alias symbol:cx24117_attach cx24117
 alias symbol:vb2_ops_wait_prepare videobuf2_v4l2
 alias symbol:zl10036_attach zl10036
 alias symbol:fc0013_rc_cal_add fc0013
+alias symbol:vchiq_mmal_port_connect_tunnel bcm2835_mmal_vchiq
 alias symbol:vb2_core_queue_release videobuf2_common
+alias symbol:vchiq_mmal_component_disable bcm2835_mmal_vchiq
 alias symbol:atbm8830_attach atbm8830
 alias symbol:hci_cmd_sync_queue_once bluetooth
 alias symbol:vb2_core_querybuf videobuf2_common
+alias symbol:vchiq_mmal_port_enable bcm2835_mmal_vchiq
 alias symbol:hci_conn_switch_role bluetooth
 alias symbol:mxl5007t_attach mxl5007t
 alias symbol:vb2_queue_change_type videobuf2_v4l2
@@ -209,7 +220,9 @@ alias symbol:dib0090_gain_control dib0090
 alias symbol:helene_attach_s helene
 alias symbol:dib3000mc_attach dib3000mc
 alias symbol:zl10353_attach zl10353
+alias symbol:vc_sm_cma_import_dmabuf vc_sm_cma
 alias symbol:__SCK__tp_func_vb2_buf_done videobuf2_common
+alias symbol:vchiq_mmal_component_finalise bcm2835_mmal_vchiq
 alias symbol:vb2_create_bufs videobuf2_v4l2
 alias symbol:stv6110x_attach stv6110x
 alias symbol:mdio_mux_init mdio_mux
@@ -226,6 +239,7 @@ alias symbol:s921_attach s921
 alias symbol:brcmu_pkt_buf_get_skb brcmutil
 alias symbol:brcmu_pktq_flush brcmutil
 alias symbol:stb6000_attach stb6000
+alias symbol:mmal_vchi_buffer_cleanup bcm2835_mmal_vchiq
 alias symbol:au8522_attach au8522_dig
 alias symbol:dib9000_fw_pid_filter_ctrl dib9000
 alias symbol:dib0090_get_tune_state dib0090
@@ -235,6 +249,7 @@ alias symbol:cxd2841er_attach_t_c cxd2841er
 alias symbol:hci_cmd_sync_run bluetooth
 alias symbol:s5h1420_attach s5h1420
 alias symbol:vli_cmp ecc
+alias symbol:vchiq_mmal_component_init bcm2835_mmal_vchiq
 alias symbol:tda8083_attach tda8083
 alias symbol:mt312_attach mt312
 alias symbol:au8522_sleep au8522_common
@@ -301,6 +316,7 @@ alias symbol:hci_cmd_sync_cancel_sync bluetooth
 alias symbol:ecc_gen_privkey ecc
 alias symbol:vli_from_le64 ecc
 alias symbol:vb2_verify_memory_type videobuf2_common
+alias symbol:vc_sm_cma_int_handle vc_sm_cma
 alias symbol:brcmu_pktq_pdeq_tail brcmutil
 alias symbol:cx22702_attach cx22702
 alias symbol:l2cap_conn_get bluetooth
@@ -323,6 +339,7 @@ alias symbol:dib9000_get_component_bus_interface dib9000
 alias symbol:tda829x_attach tda8290
 alias symbol:zd1301_demod_get_dvb_frontend zd1301_demod
 alias symbol:tda10048_attach tda10048
+alias symbol:vchiq_mmal_submit_buffer bcm2835_mmal_vchiq
 alias symbol:au8522_readreg au8522_common
 alias symbol:ves1820_attach ves1820
 alias symbol:stv0367cab_attach stv0367
@@ -369,6 +386,7 @@ alias symbol:crypto_ecdh_shared_secret ecc
 alias symbol:bt_sock_wait_state bluetooth
 alias symbol:zl10039_attach zl10039
 alias symbol:dib9000_attach dib9000
+alias symbol:vchiq_mmal_port_set_format bcm2835_mmal_vchiq
 alias symbol:__tracepoint_vb2_qbuf videobuf2_common
 alias symbol:frame_vector_to_pages videobuf2_common
 alias symbol:bt_sock_alloc bluetooth
@@ -418,6 +436,7 @@ alias symbol:ecc_get_curve ecc
 alias symbol:hci_devcd_register bluetooth
 alias symbol:s5h1420_get_tuner_i2c_adapter s5h1420
 alias symbol:hci_alloc_dev_priv bluetooth
+alias symbol:mmal_vchi_buffer_init bcm2835_mmal_vchiq
 alias symbol:bt_sock_unregister bluetooth
 alias symbol:au8522_analog_i2c_gate_ctrl au8522_common
 alias symbol:dib9000_set_gpio dib9000
