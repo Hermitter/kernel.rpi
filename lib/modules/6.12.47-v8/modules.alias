@@ -73,12 +73,12 @@ alias sdio:c*v02D0d4324* brcmfmac
 alias sdio:c*v02D0dA887* brcmfmac
 alias of:N*T*Camlogic,meson-vrtcC* rtc_meson_vrtc
 alias of:N*T*Camlogic,meson-vrtc rtc_meson_vrtc
-alias of:N*T*Csony,imx219C* imx219
-alias of:N*T*Csony,imx219 imx219
 alias of:N*T*Csony,imx378C* imx477
 alias of:N*T*Csony,imx378 imx477
 alias of:N*T*Csony,imx477C* imx477
 alias of:N*T*Csony,imx477 imx477
+alias of:N*T*Csony,imx708C* imx708
+alias of:N*T*Csony,imx708 imx708
 alias i2c:e4000 e4000
 alias i2c:fc2580 fc2580
 alias platform:it9133bx-tuner it913x
@@ -230,6 +230,8 @@ alias usb:v03F0pE207d*dc*dsc*dp*ic0Eisc01ip00in* uvcvideo
 alias of:N*T*Csony,cxd2880C* cxd2880_spi
 alias of:N*T*Csony,cxd2880 cxd2880_spi
 alias spi:cxd2880 cxd2880_spi
+alias vchiq:bcm2835-camera bcm2835_v4l2
+alias vcsm-cma vc_sm_cma
 alias tty-ldisc-15 hci_uart
 alias of:N*T*Cinfineon,cyw55572-btC* hci_uart
 alias of:N*T*Cinfineon,cyw55572-bt hci_uart
